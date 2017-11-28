@@ -1,4 +1,4 @@
-package br.com.pradella.Capitulo2;
+package br.com.pradella.Capitulo;
 
 import java.util.Arrays;
 import java.util.List;
@@ -6,7 +6,7 @@ import java.util.function.Consumer;
 
 import br.com.pradella.entidade.Usuario;
 
-public class capitulo2Impl {
+public class Capitulo2Impl {
 
 	
 	public static void main(String[] args) {

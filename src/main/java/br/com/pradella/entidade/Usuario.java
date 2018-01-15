@@ -43,7 +43,15 @@ public class Usuario {
 	public void tornarModerador() {
 		this.moderador = true;
 	}
+
 	
 	
+	
+	
+	
+	
+	
+
+
 
 }

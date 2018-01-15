@@ -1,4 +1,4 @@
-package br.com.pradella.Capitulo;
+package br.com.pradella.capitulo;
 
 import java.util.Arrays;
 import java.util.List;

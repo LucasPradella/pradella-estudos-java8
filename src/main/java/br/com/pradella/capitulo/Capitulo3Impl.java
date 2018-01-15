@@ -1,4 +1,4 @@
-package br.com.pradella.Capitulo;
+package br.com.pradella.capitulo;
 
 public class Capitulo3Impl {
 

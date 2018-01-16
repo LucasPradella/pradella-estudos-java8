@@ -14,7 +14,9 @@ public class Usuario {
 	}
 	
 	
-	
+	public Usuario(String nome) {
+		this.nome = nome;
+	}
 	
 	
 	
@@ -46,7 +48,12 @@ public class Usuario {
 
 	
 	
+
 	
+	public String toString() {
+		return "Usuario " + nome;
+	}
+
 	
 	
 	

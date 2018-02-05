@@ -1,11 +1,7 @@
 package br.com.pradella.capitulo;
 
-import static java.util.Arrays.asList;
-
 import java.io.IOException;
-import java.io.UncheckedIOException;
 import java.nio.file.Files;
-import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.Arrays;
 import java.util.Comparator;
@@ -20,16 +16,10 @@ import java.util.stream.Stream;
 import br.com.pradella.entidade.Grupo;
 import br.com.pradella.entidade.Usuario;
 
-public class Capitulo8Impl {
+public class Capitulo8Impl extends BaseEstudos {
 	
 	public static void main(String[] args) throws IOException {
 		
-		Usuario user1 = new Usuario("Hanah", 120);
-		Usuario user2 = new Usuario("Arya", 150);
-		Usuario user3 = new Usuario("Stark", 120);
-		Usuario user4 = new Usuario("Snow", 20);
-		
-		List<Usuario> usuarios = asList(user1, user2, user3, user4);
 		
 		
 		System.out.println("============= ORDENANDO UM STREAM ============= ");
@@ -185,14 +175,7 @@ public class Capitulo8Impl {
 
 			}
 
-			static Stream<String> lines(Path p) {
-				try {
-					return Files.lines(p);
-				} catch(IOException e) {
-					throw new UncheckedIOException(e);
-				}
-			}
-	
+		
 	
 
 }

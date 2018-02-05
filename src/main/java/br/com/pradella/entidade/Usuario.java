@@ -19,7 +19,13 @@ public class Usuario {
 	}
 	
 	
-	
+
+	public Usuario(String nome, int ponto, boolean moderador) {
+		this.nome = nome;
+		this.ponto = ponto;
+		this.moderador = moderador;
+	}
+
 
 	public String getNome() {
 		return nome;

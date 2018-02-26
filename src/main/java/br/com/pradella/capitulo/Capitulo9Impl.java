@@ -160,7 +160,7 @@ public class Capitulo9Impl extends BaseEstudos{
 				
 				long sum =
 						LongStream.range(0, 1_000_000_000)
-						.parallel()
+					//	.parallel()
 						.filter(x -> x % 2 == 0)
 						.sum();
 				System.out.println(sum);
